@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import logo from "./logo.svg";
 import "./App.css";
 import { Field } from "./components/fields.js";
 import { MirrorField } from "./components/mirror-fields.js";
