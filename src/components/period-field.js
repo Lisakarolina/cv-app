@@ -9,7 +9,6 @@ export class PeriodField extends Component {
   }
 
   updateValue(e) {
-    console.log(this.state);
     this.setState(
       (prev) => ({
         [`${e.target.id}`]: e.target.value,
