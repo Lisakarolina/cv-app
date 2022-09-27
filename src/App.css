@@ -39,6 +39,11 @@ input {
   border-radius: 3px;
 }
 
+input:focus {
+  border-color: green;
+  outline: none;
+}
+
 label {
   margin-left: 30px;
 }
